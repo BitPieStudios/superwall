@@ -1,11 +1,12 @@
 body {
-  background-color: white;
+  background: -webkit-linear-gradient(#BA54AE, #826741); /* For Safari 5.1 to 6.0 */
+  
   font-family: Helvetica, Arial, sans-serif;
 }
 
 #page {
   margin: 0 auto; /* This centers the #page div horizontally */
-  width: 700px;
+  width: 300px;
 }
 
 #page nav {
@@ -24,10 +25,13 @@ body {
 }
 
 #post-form textarea {
-  width: 400px;
+  width: 100%;
   min-height: 50px;
 }
 
 #content {
   font
+}
+#logo {
+width:300px;
 }
